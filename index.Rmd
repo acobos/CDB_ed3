@@ -1,0 +1,129 @@
+---
+title: "Introduction to the R language"
+author: "Albert Cobos"
+date: "2024-10-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\
+\
+
+
+## Intro to R and RStudio
+
+|  |  |
+|------------------------------------|------------------------------------|
+| [A first R session](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#first-r-session) |  |
+| [Functions](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#r-functions) |  |
+| [Objects](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#r-objects) |  |
+| [exes 1 and 2](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#exercises) | Solution to [exe 1](./sol_exes/1_intro_R_and_RStudio/sol_exe_1.R), [exe 2](./sol_exes/1_intro_R_and_RStudio/sol_exe_2.R) |
+| [Installing packages](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#installing-r-packages) vs [loading packages](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#loading-packages) |  |
+| [exes 3 and 4](https://acobos.github.io/DA/introduction-to-r-and-rstudio.html#exercises) | Solution to [exe 3](./sol_exes/1_intro_R_and_RStudio/sol_exe_3.R), [exe 4](./sol_exes/1_intro_R_and_RStudio/sol_exe_4.R) |
+
+\
+\
+
+## Data structures I:     [vectors](https://acobos.github.io/DA/r-data-structures.html#vectors)
+
+|  |  |
+|------------------------------------|------------------------------------|
+| [Creating vectors; type and length; missing elements](https://acobos.github.io/DA/r-data-structures.html#cb15-1) |  |
+| [Working with numeric vectors](https://acobos.github.io/DA/r-data-structures.html#cb16-1) |  |
+| [Relational operators and comparisons](https://acobos.github.io/DA/r-data-structures.html#cb17-1) |  |
+| [exes 1, 4 and 5](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 1](sol_exes\2_R_data_structures\sol_exe_1.R), [exe 4](sol_exes\2_R_data_structures\sol_exe_4.R), [exe 5](sol_exes\2_R_data_structures\sol_exe_5.R) |
+| [Working with character vectors](https://acobos.github.io/DA/r-data-structures.html#cb18-1) |  |
+| [Combining character data](https://acobos.github.io/DA/r-data-structures.html#cb19-1) |  |
+| [Extract/replace part of a string](https://acobos.github.io/DA/r-data-structures.html#cb20-1) |  |
+| [exes 2 and 3a](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 2](sol_exes\2_R_data_structures\sol_exe_2.R), [exe 3a](sol_exes\2_R_data_structures\sol_exe_3a.R) |
+
+-   *Homework:* Read the remaining of this section, and execute the tutorials on:\
+    -   [named vectors](https://acobos.github.io/DA/r-data-structures.html#cb21-1),\
+    -   [type conversions](https://acobos.github.io/DA/r-data-structures.html#cb22-1), and\
+    -   [scalars](https://acobos.github.io/DA/r-data-structures.html#cb23-1).
+-   *Homework:* [exes 3b, 3c and 3d](https://acobos.github.io/DA/r-data-structures.html#exercises-1). 
+
+\
+\
+
+## Data structures II:     [lists](https://acobos.github.io/DA/r-data-structures.html#lists) and [dataframes](https://acobos.github.io/DA/r-data-structures.html#dataframes)
+
+|  |  |
+|------------------------------------|------------------------------------|
+| [Creating lists](https://acobos.github.io/DA/r-data-structures.html#cb24-1) |  |
+| [Subsetting vs extracting (from) a list](https://acobos.github.io/DA/r-data-structures.html#cb25-1) |  |
+| [Named lists](https://acobos.github.io/DA/r-data-structures.html#cb26-1), and a [practical example](https://acobos.github.io/DA/r-data-structures.html#cb27-1) |  |
+| [exe 6](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 6](sol_exes\2_R_data_structures\sol_exe_6.R) |
+| [Creating dataframes](https://acobos.github.io/DA/r-data-structures.html#dataframes) |  |
+| [exe 7](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 7](sol_exes\2_R_data_structures\sol_exe_7.R) |
+
+\
+\
+
+## Data structures III:     [factors](https://acobos.github.io/DA/r-data-structures.html#factors) and [dates](https://acobos.github.io/DA/r-data-structures.html#dates)
+
+|  |  |
+|------------------------------------|------------------------------------|
+| [Creating a factor from a numeric vector](https://acobos.github.io/DA/r-data-structures.html#cb29-1) |  |
+| [Creating a factor from a character vector](https://acobos.github.io/DA/r-data-structures.html#cb30-1) |  |
+| [exes 8 and 9](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 8](sol_exes\2_R_data_structures\sol_exe_8.R), [exe 9](sol_exes\2_R_data_structures\sol_exe_9.R) |
+| [Creating date objects](https://acobos.github.io/DA/r-data-structures.html#cb31-1) |  |
+| [Simple arithmetics with dates](https://acobos.github.io/DA/r-data-structures.html#cb32-1) |  |
+| [exe 10](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 10](sol_exes\2_R_data_structures\sol_exe_10.R) |
+
+
+-   *Cheatsheet:* [Base R](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+
+\
+\
+
+## Working with dataframes
+
+|  |  |
+|------------------------------------|------------------------------------|
+| [Example data](example_data_disehtae.html) |  |
+| [Package `dplyr`](https://acobos.github.io/CDB_ed2/2_0_dplyr.html) |  |
+| [Subsetting variables](https://acobos.github.io/CDB_ed2/2_1_select.html#1) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_1_select_exe_solution.R) |
+| [Subsetting observations](https://acobos.github.io/CDB_ed2/2_2_filter.html#1) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_2_filter_exe_solution.R) |
+| [Chaining operations](https://acobos.github.io/CDB_ed2/2_3_pipe.html#1) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_3_pipe_exe_solution.R) |
+| [Computing variables](https://acobos.github.io/CDB_ed2/2_4_mutate.html#1) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_4_mutate_exe_solution.R) |
+| [Reshaping dataframes](https://acobos.github.io/CDB_ed2/2_7_reshaping.html#10) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_7_reshape_exe_solution.R) |
+| [Summarizing rows](https://acobos.github.io/CDB_ed2/2_8_summarise.html#1) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_8_summarise_exe_solution.R) |
+| [Combining dataframes](https://acobos.github.io/CDB_ed2/2_9_joins.html#1) | Solution to [exes](./sol_exes/3_working_with_dataframes/2_9_joins_exe_solution.R) |
+
+-   *Cheatsheets:*
+    -   [Data transformation with `dplyr`](https://rstudio.github.io/cheatsheets/data-transformation.pdf)
+    -   [Data tidying with tidyr](https://rstudio.github.io/cheatsheets/tidyr.pdf)
+
+\
+\
+
+## Describing data 
+
+|  |  |
+|------------------------------------|------------------------------------|
+| [Univariate graphics](graphics_univariate.html) | Solution to [exes](sol_exes/4_descriptives/1_univariate_exe_solution.R) |
+| [Bivariate graphics (I)](https://acobos.github.io/CDB_ed2/3_2_bivariate_groups.html) | Solution to [exes](sol_exes/4_descriptives/2_bivariate_groups_exe_solution.R) |
+| [Example data](example_data_osas.html) |  |
+| [Bivariate graphics (II)](https://acobos.github.io/CDB_ed2/3_3_bivariate_scatter.html) | Solution to [exes](sol_exes/4_descriptives/3_bivariate_scatter_exe_solution.R) |
+| [Summaries for categorical vars](./summary_categorical_vars.R) |  |
+| [Summaries for quantitative vars](./summary_quantitative_vars.R) |  |
+
+-   *Homework*: [exe 3](https://acobos.github.io/DA/exploratory-data-analysis.html#exercises-4), but using *both tables and graphics,* and [exe 4](https://acobos.github.io/DA/exploratory-data-analysis.html#exercises-4)*.*
+
+-   *For more on graphics, have a look to* [the R graph gallery](https://r-graph-gallery.com/).
+
+\
+\
+
+## Literate programming for reproducible research
+
+|  |  |
+|------------------------------------|------------------------------------|
+|[Rmarkdown](https://acobos.github.io/CDB_ed2/6_3_Rmarkdown.html) | |
+|[More Rmarkdown](https://acobos.github.io/CDB_ed2/6_4_more_Rmarkdown.html) | |
+
+- [Rmarkdown cheatsheet](https://rstudio.github.io/cheatsheets/rmarkdown.pdf)
