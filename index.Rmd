@@ -75,7 +75,13 @@ knitr::opts_chunk$set(echo = TRUE)
 | [exe 10](https://acobos.github.io/DA/r-data-structures.html#exercises-1) | Solution to [exe 10](sol_exes\2_R_data_structures\sol_exe_10.R) |
 
 
+- To deal with factors, see package [`forcats`](https://forcats.tidyverse.org/) (which is part of the [`tidyverse`](https://www.tidyverse.org/))
+
+- To deal with dates, see package [`lubridate`](https://lubridate.tidyverse.org/) (which is part of the [`tidyverse`](https://www.tidyverse.org/))
+
 -   *Cheatsheet:* [Base R](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+
+- *Homework:*  have a look into the example data below, and familiarize yourself with the variables in the data set.
 
 \
 \
