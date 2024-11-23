@@ -133,3 +133,5 @@ knitr::opts_chunk$set(echo = TRUE)
 |[More Rmarkdown](https://acobos.github.io/CDB_ed2/6_4_more_Rmarkdown.html) | |
 
 - [Rmarkdown cheatsheet](https://rstudio.github.io/cheatsheets/rmarkdown.pdf)
+
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
