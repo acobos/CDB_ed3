@@ -118,7 +118,7 @@ knitr::opts_chunk$set(echo = TRUE)
 | [Summaries for categorical vars](./summary_categorical_vars.R) |  |
 | [Summaries for quantitative vars](./summary_quantitative_vars.R) |  |
 
--   *Homework*: [exe 3](https://acobos.github.io/DA/exploratory-data-analysis.html#exercises-4), but using *both tables and graphics,* and [exe 4](https://acobos.github.io/DA/exploratory-data-analysis.html#exercises-4)*.*
+-   *Homework*: [exe 3](https://acobos.github.io/DA/exploratory-data-analysis.html#exercises-4), but using *both tables and graphics,* and [exe 4](https://acobos.github.io/DA/exploratory-data-analysis.html#exercises-4)*.* (Solutions to [exe 3](sol_exes/4_descriptives/sol_exe_3.R) and [exe 4](sol_exes/4_descriptives/sol_exe_4.R))
 
 -   *For more on graphics, have a look to* [the R graph gallery](https://r-graph-gallery.com/).
 
@@ -129,8 +129,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 |  |  |
 |------------------------------------|------------------------------------|
-|[Rmarkdown](https://acobos.github.io/CDB_ed2/6_3_Rmarkdown.html) | |
-|[More Rmarkdown](https://acobos.github.io/CDB_ed2/6_4_more_Rmarkdown.html) | |
+|[Rmarkdown](https://acobos.github.io/CDB_ed2/6_3_Rmarkdown.html) |Solution to [exe 1](sol_exes\5_Rmarkdown\exe_1.Rmd), [exe 2](sol_exes\5_Rmarkdown\exe_2.Rmd) |
+|[More Rmarkdown](https://acobos.github.io/CDB_ed2/6_4_more_Rmarkdown.html) | Solution to [exe 1](sol_exes\5_Rmarkdown\exe_3.Rmd)|
 
 - [Rmarkdown cheatsheet](https://rstudio.github.io/cheatsheets/rmarkdown.pdf)
 
