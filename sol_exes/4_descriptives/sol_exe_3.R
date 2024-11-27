@@ -1,6 +1,3 @@
-# Solution to exercise 5.3
-
-
 # reading data
 library(readr)
 d <- read_delim("https://raw.githubusercontent.com/acobos/Datasets/master/Mysterious_event.txt",

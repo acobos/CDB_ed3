@@ -1,5 +1,3 @@
-# Solution to exercise 5.4
-
 # load packages
 library(dplyr)
 library(gapminder)
